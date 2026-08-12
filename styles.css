@@ -102,8 +102,8 @@ button {
 
 .final-text {
   display: none;
-  margin: 0 auto 24px;
-  font-size: 28px;
+  margin: 0 auto 26px;
+  font-size: 40px;
   color: #333;
 }
 
@@ -112,7 +112,7 @@ button {
   background-color: #f5e8d8;
   border: none;
   box-shadow: none;
-  padding: 0;
+  padding: 20px;
   position: fixed;
   inset: 0;
   width: 100vw;
@@ -124,18 +124,24 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
   text-align: center;
+  overflow: hidden;
 }
 
 .popup h1 {
-  font-size: 64px;
+  font-size: 72px;
   margin: 0;
 }
 
+#details {
+  width: 100%;
+  max-width: 720px;
+}
+
 .popup img {
-  max-width: 560px;
-  max-height: 560px;
+  max-width: 720px;
+  max-height: 60vh;
   width: 100%;
   height: auto;
   border-radius: 28px;
