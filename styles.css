@@ -91,8 +91,8 @@ button {
 
 #details p {
   color: #000;
-  margin: 12px 0;
-  font-size: 24px;
+  margin: 14px 0;
+  font-size: 26px;
 }
 
 #details span {
@@ -119,11 +119,27 @@ button {
   height: 100vh;
   z-index: 999;
   font-family: "Dancing Script", cursive;
-  font-size: 24px;
   color: #e91e63; /* Romantic color for the popup text */
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+.popup h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.popup img {
+  max-width: 560px;
+  max-height: 560px;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
 }
 
 /* Add a smooth fade-in animation for the popup */
