@@ -34,42 +34,42 @@ body {
 }
 
 .container {
-  padding: 40px;
-  max-width: 900px;
+  padding: 50px;
+  max-width: 1000px;
   width: 100%;
   box-sizing: border-box;
 }
 
 h1 {
-  font-size: 48px;
-  margin-bottom: 30px;
+  font-size: 60px;
+  margin-bottom: 34px;
   color: #e91e63; /* Romantic color for the heading */
 }
 
 img {
-  max-width: 420px;
-  max-height: 420px;
+  max-width: 520px;
+  max-height: 520px;
   width: 100%;
   height: auto;
-  border-radius: 24px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  border-radius: 28px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
 }
 
 .buttons {
-  margin: 24px auto;
+  margin: 28px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 
 button {
-  font-size: 22px;
-  padding: 16px 32px;
-  margin: 10px;
+  font-size: 26px;
+  padding: 18px 36px;
+  margin: 12px;
   border: none;
-  border-radius: 24px;
+  border-radius: 26px;
   background-color: #ff4081; /* Romantic color for the buttons */
   color: #fff;
   cursor: pointer;
@@ -91,8 +91,8 @@ button {
 
 #details p {
   color: #000;
-  margin: 10px 0;
-  font-size: 20px;
+  margin: 12px 0;
+  font-size: 24px;
 }
 
 #details span {
@@ -102,8 +102,8 @@ button {
 
 .final-text {
   display: none;
-  margin: 0 auto 20px;
-  font-size: 24px;
+  margin: 0 auto 24px;
+  font-size: 28px;
   color: #333;
 }
 
