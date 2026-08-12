@@ -26,38 +26,50 @@ body {
   font-family: "Great Vibes", cursive;
   text-align: center;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f5e8d8; /* Soft cream color for the background */
 }
 
 .container {
-  padding: 30px;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   margin-bottom: 30px;
   color: #e91e63; /* Romantic color for the heading */
 }
 
 img {
-  max-width: 320px;
-  max-height: 320px;
+  max-width: 420px;
+  max-height: 420px;
   width: 100%;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
 }
 
 .buttons {
-  margin: 20px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 button {
-  font-size: 20px;
-  padding: 12px 24px;
+  font-size: 22px;
+  padding: 16px 32px;
   margin: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 24px;
   background-color: #ff4081; /* Romantic color for the buttons */
   color: #fff;
   cursor: pointer;
@@ -79,17 +91,19 @@ button {
 
 #details p {
   color: #000;
-  margin: 8px 0;
+  margin: 10px 0;
+  font-size: 20px;
 }
 
 #details span {
   color: #e91e63;
+  font-weight: 700;
 }
 
 .final-text {
   display: none;
   margin: 0 auto 20px;
-  font-size: 22px;
+  font-size: 24px;
   color: #333;
 }
 
